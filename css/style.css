@@ -1,0 +1,334 @@
+html,body{
+    height: 100%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h3{
+    text-transform: uppercase;
+    
+}
+p{
+    color: #41464b;
+    font-size: 1rem;
+    font-weight: 300;
+}
+.btn{
+    text-transform: uppercase;
+    
+}
+.btn:hover{
+    background: transparent;
+    color: #34c6d3;
+}
+/* =================================
+            parallax style 
+=====================================*/
+.bg-prallax{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;  
+}
+.vesco-top-nav{
+    background: rgba(0,0,0, 0.6);
+    
+}
+
+
+
+/* =================================
+            home section 
+=====================================*/
+#home {
+    height: 100%;
+}
+
+#home-cover {
+    height: 100%;
+    background-image: url(../img/bg-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+#home-heading {
+    color: cornsilk;
+    text-transform: capitalize;
+}
+
+/* =================================
+            service section 
+=====================================*/
+
+
+.content-box {
+    padding: 60px 0 60px 0;
+}
+
+
+.content-title h3{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem; 
+    margin: 0 0 30px 0;
+}
+
+.content-title-underline {
+    width: 2rem;
+    height: .1rem;
+    background: #34c6d3;
+    margin: 0 auto 0 auto;
+    margin-bottom: 1rem;
+
+}
+.service-item {
+    padding: 1.5rem 0 1.5rem 0;
+    margin-bottom: 1.5rem;
+}
+
+.service-item-icon i{
+    color: #34c6d3;
+    float: left;
+    padding: 1rem;
+    margin-right: 1rem;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+}
+
+.service-item-title h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+}
+
+.service-item-desc p{
+    margin: 0;
+    padding-left: 85px;
+}
+.wow {
+    visibility: hidden;
+}
+/* about */
+#about-content-box{
+    height: 750px;
+}
+#about-content-box-outer{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+#about-content-box-inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+#about .content-title h3{
+    text-align: left;
+}
+#about .content-title-underline{
+    margin: 0 0 2rem 0;
+}
+#about-desc p{
+    margin-bottom: 30px;
+}
+ #about-bg-diagonal{
+    height: 750px; 
+    background-image: url(../img/bg-about.jpg);
+    border-left: 200px solid #fff;
+    border-top: 700px solid transparent; 
+} 
+
+/* ======================
+        Work
+=========================
+ */
+.row.no-gutter [class*=col-]{
+    padding-left: 0;
+    padding-right: 0;
+}
+.img-wrapper{
+    overflow: hidden;
+}
+.img-wrapper img{
+    transition: transform .5s ease;
+}
+.img-wrapper img:hover{
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
+
+/* ==============
+        Team
+==================
+*/
+.tem-member{
+    margin: 0 auto;
+}
+.team-member-info{
+    padding: 10px 0 30px 0;
+}
+h4.tem-member-name{
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 2px;
+}
+h4.team-member-name-designation{
+    color: #34c6d3;
+    font-size: 12px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin-top: 2px;
+}
+/* =====================
+        testimonial
+========================
+ */
+ #testimonial-cover{
+     background-image: url(../img/bg-testimonials.jpg);
+ }
+.social-list{
+    padding-left: 0;
+}
+.social-list li{
+    list-style: none;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 3px;
+    padding-top: 10px;
+}
+.social-icon i{
+    font-size: 1rem;
+} 
+.icon-gray i{
+    color: #41464b;
+}
+.icon-gray i:hover{
+    color: #34c6d3;
+}
+
+#testimonial .content-box{
+    background-color: rgba(0,0,0, 0.1);
+}
+#customers-testimonials{
+    padding: 40px 0;
+}
+.test-imonial img{
+    border-radius: 50%;
+    max-width: 120px;
+    margin: 0 auto 0 auto;
+}
+.test-imonial blockquote p{
+    color: #fff;
+}
+.blockquote-footer{
+    color: #fff;
+}
+
+/* ===========================
+            pricing
+============================== */
+
+.pricing-box {
+    margin-top: 2rem;
+    
+}
+
+.pricing-box p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+h4.p-title{
+    background-color: #34c6d3;
+    display: inline-block;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 7px 15px;
+    margin: 0 0 30px 0;
+
+}
+h3.p-value{
+    font-size: 3.6rem;
+    font-weight: 700;
+    
+
+}
+h3.p-value sup{
+    font-size: 28px;
+    font-weight: normal;
+    vertical-align: super;
+}
+ul.p-got{
+    list-style-type: square;
+    padding-left: 0;
+    margin: 20px 0 60px 0;
+}
+/* ===========================
+            stats
+============================== */
+#stats-cover{
+    background-image: url(../img/bg-stats.jpg);
+    
+}
+#stats .content-box{
+    background-color: rgba(0,0,0, 0.8);
+}
+.stats-item{
+    padding: 50px 0;
+}
+.stats-item i{
+    color: #34c6d3;
+    margin-bottom: 1rem;
+}
+.stats-item h2{
+    font-weight: 700;
+    font-size: 35px;
+
+}
+.stats-item p{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 0%;
+
+}
+
+/* ===========================
+            Client
+============================== */
+
+.client{
+    padding: 40px 0;
+    margin: 0 auto;
+}
+
+footer{
+    background: #41464b;
+    color: #fff;
+    padding: 50px;
+}
+#contact-info{
+    background-image: url(../img/world-map.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+#footer-left i{
+    color: #fff;
+}
+
+
+#footer-bottom{
+    background-color: rgb(1 1 1 / 70%);
+    padding: 38px 0;
+}
+
+
